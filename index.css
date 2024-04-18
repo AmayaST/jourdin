@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Police1";
-    src: url('../polices/Police12.otf');
+    src: url('polices/Police12.otf');
 }
 
 @font-face {
     font-family: "Police2";
-    src: url('../polices/Police3.ttf');
+    src: url('polices/Police3.ttf');
 }
 
 @font-face {
     font-family: "Police3";
-    src: url('../polices/Police4.ttf');
+    src: url('polices/Police4.ttf');
 }
 
 .titre {
