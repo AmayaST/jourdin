@@ -14,7 +14,6 @@ function Lancer_musique(id) {
 
 function bonne_reponse()
 {
-	document.getElementById("reponse").textContent=reponses[i];
 	document.getElementById(i).style.color = "white";
 	document.getElementById(i).style.backgroundColor = "#C1E1C1";
 	
@@ -32,10 +31,14 @@ function bonne_reponse()
 		
 }
 
+function reponse () {
+	document.getElementById("reponse").textContent=reponses[i];
+}
+
 
 function mauvaise_reponse(){
 
-	document.getElementById("reponse").textContent=reponses[i];
+	
 	document.getElementById(i).style.color = "white";
 	document.getElementById(i).style.backgroundColor = "#FF5733";
 

@@ -96,3 +96,7 @@ img:focus {
   color: #19bc8b;
 
 }
+
+.reponse {
+	cursor: pointer;
+}
